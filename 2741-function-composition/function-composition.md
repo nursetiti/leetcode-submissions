@@ -5,3 +5,4 @@ I set my final answer to x so that my finalAnswer will be the identity element i
 
 # Complexities
 Time Complexity: 0(n)- Iterating through the array items
+Space Complexity: 0(1)-fixed array size/constant space
