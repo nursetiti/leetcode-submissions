@@ -3,7 +3,7 @@
 <h1><strong class="example">Approach:</strong></h1>
 
 <pre>
-<p>I set my final answer to x so that my finalAnswer will be the identity element if my function array is an empty array.I then iterated through the array of functions backward until we are at the beginning of the array.I applied the current function to my current value of finalAnswer and set the result to finalAnswer. FinalAnswer is returned outside the loop </p>
+<p class="example">I set my final answer to x so that my finalAnswer will be the identity element if my function array is an empty array.I then iterated through the array of functions backward until we are at the beginning of the array.I applied the current function to my current value of finalAnswer and set the result to finalAnswer. FinalAnswer is returned outside the loop </p>
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
