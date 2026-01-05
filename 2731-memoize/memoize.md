@@ -8,4 +8,5 @@
 Since the idea is to not call a function twice for the same input, I had to make sure my inputs are stored with a unique key but the key is also dependent on the input value. In my function, I had another function that ran to check every key in my store using the spread operator.the key is gotten by converting the input value to string. If the new key is already in store, it's value is simply returned.If it's not, our funtion is called on the arguments, their value's key is stored and then returned.
 
 # Complexities
--Time Complexity - 
+-Time Complexity - 0(n)
+-Space Complexity - 0(1)
