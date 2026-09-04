@@ -19,8 +19,8 @@ class Solution(object):
         #     merged.extend(word2[len(word1):])
 
         for i in range(min(len(word1), len(word2))):
-            merged.extend([word1[i], word2[i]])
-            # merged.append(word2[i])
+            merged.append(word1[i])
+            merged.append(word2[i])
 
         merged.extend(word1[len(word2):])
         merged.extend(word2[len(word1):])
