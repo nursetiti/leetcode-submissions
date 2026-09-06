@@ -6,12 +6,11 @@ class Solution:
         for i in s:
             if i.lower() in vowels:
                 vowelStore.append(i)
-        print(vowelStore)
-        vowelStore.reverse()
+        # vowelStore.reverse()
         for i in range(len(s)):
             if s[i].lower() in vowels:
-                s[i] = vowelStore[0]
-                del vowelStore[0]
+                s[i] = vowelStore.pop()
+                # vowelStore.pop()
         s = "".join(s)
         return s
 
